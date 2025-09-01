@@ -45,9 +45,4 @@ Built with **PostgreSQL**, **Django REST Framework (DRF)**, and **JWT authentica
 
 ---
 
-## ⚙️ Installation & Setup
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/gold-gallery-management.git
-   cd gold-gallery-management
