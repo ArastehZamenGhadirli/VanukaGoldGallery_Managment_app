@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     "phonenumber_field"
 ]
 
+AUTH_USER_MODEL = "accounting.UserAccount"
+
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",

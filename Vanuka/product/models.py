@@ -17,7 +17,9 @@ class product(models.Model):
     def __str__(self):
         return self.name
     
-    
+
+"""i think this part is useless because now we have user account in accounting app"""
+
 class Customer(models.Model):
     first_name = models.CharField(max_length=50, blank=True)
     last_name = models.CharField(max_length=50, blank=True)
