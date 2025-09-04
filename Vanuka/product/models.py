@@ -4,9 +4,9 @@ from phonenumber_field.modelfields import PhoneNumberField
 
 
 
-class product(models.Model):
+class Product(models.Model):
     name = models.CharField(max_length=20)
-    weight = models.PositiveIntegerField()
+    weight = models.FloatField()
     craftingfee_buy = models.PositiveBigIntegerField()
     craftingfee_sell = models.PositiveBigIntegerField()
     Is_available = models.BooleanField()
